@@ -64,7 +64,7 @@ body {
 }
 
 #top-content-bg {
-    background-image: url(top_content_bg.png);
+    background-image: url(/top_content_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
