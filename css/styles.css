@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #top-content-bg .text-white {
     text-align: center;
+    font-weight: 400;
 }
 
 #main-title {
@@ -26,13 +27,17 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 20px;
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .header .container {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo img {
@@ -86,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: bottom;
     background-color: #820f0f;
     height: 87.5vh;
+    margin-top: 74px;
 }
 
 .main-content {
