@@ -63,6 +63,15 @@ body {
     border-radius: 3px;
 }
 
+#top-content-bg {
+    background-image: url(top_content_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #820f0f;
+    height: 87.5vh;
+}
+
 .main-content {
     padding: 20px;
 }
