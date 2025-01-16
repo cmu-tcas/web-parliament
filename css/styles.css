@@ -106,10 +106,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu {
     display: flex;
+    gap: 10px;
     margin: 0 2rem;
 }
 
 .menu a {
     padding: 10px;
     width: 25%;
+    border: 1px solid;
+    color: #800000;
+    text-align: center;
+    text-decoration: auto;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    border: 1px solid;
+    color: #fff;
+    background: #800000;
 }
